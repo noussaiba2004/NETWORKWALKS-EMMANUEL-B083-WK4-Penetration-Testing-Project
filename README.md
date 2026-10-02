@@ -1,15 +1,15 @@
-# Mediroza Hospital Penetration Test
+# 🏥 Mediroza Hospital Penetration Test
 
-## Overview
+## 📖 Overview
 This repository contains the methodology, attack chain, and final penetration testing report for a simulated Black-Box assessment of a healthcare web application (Mediroza General Hospital). The project demonstrates a full-chain exploit, starting from initial access via authentication bypass to the exfiltration of highly sensitive financial and patient data.
 
-## Objectives
+## 🎯 Objectives
 - Assess the external security posture of the Mediroza web portal.
 - Identify and exploit web vulnerabilities to escalate privileges.
 - Compromise encrypted documents to assess password policies.
 - Conduct forensic metadata analysis to discover hidden infrastructure exposures.
 
-## Tools Used
+## 🛠️ Tools Used
 - **OS:** Kali Linux
 - **Web Exploitation:** Manual SQL Injection (SQLi) payload crafting
 - **Cryptography / Cracking:** Networkwalks Password Cracker, Public wordlists (`rockyou.txt`)
@@ -34,5 +34,5 @@ Navigating to the hidden `/old` directory revealed an unsecured, publicly access
 ## Deliverables
 - `Penetration_Testing_Report.pdf`: A comprehensive executive and technical report detailing the scope, findings, risk ratings, and actionable remediation steps. (See repository files).
 
-## Disclaimer
+## ⚠️ Disclaimer
 *This project is a Capture The Flag (CTF) simulation. All methodologies were executed in a controlled, authorized educational environment. Do not use these techniques against targets without explicit written permission.*
